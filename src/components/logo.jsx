@@ -2,7 +2,7 @@ import React from "react";
 
 function Logo() {
   return (
-    <div>
+    <div style={{ height: "48px" }}>
       <svg
         xmlns="https://www.w3.org/2000/svg"
         width="48"
