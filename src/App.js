@@ -1,7 +1,8 @@
 import React from "react";
 import * as S from "./style";
 import Logo from "./components/logo";
-import Comment from "./components/comment/comment.jsx";
+import Comment from "./components/Comment";
+import EnterEmail from "./components/EnterEmail";
 import "./style/global.css";
 
 function App() {
@@ -9,8 +10,9 @@ function App() {
     <S.Wrapper>
       <S.ContentBox>
         <Logo />
-        <div>
-          <Comment></Comment>
+        <div style={{ display: "flex" }}>
+          <Comment />
+          <EnterEmail />
         </div>
       </S.ContentBox>
       <S.ToolBox>Test</S.ToolBox>
