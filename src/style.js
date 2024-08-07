@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.div`
-  width: 100vw;
   height: 100vh;
   background-color: #f0f4f9;
   display: flex;
@@ -10,18 +9,25 @@ export const Wrapper = styled.div`
   align-items: center;
 `;
 
-export const ContentBox = styled.div`
-  width: 1040px;
+export const MainContentBox = styled.div`
+  width: 1136px;
   height: 402px;
+  padding: 36px;
+  box-sizing: border-box;
   background-color: white;
   border-radius: 28px;
-  padding: 36px;
+  display: flex;
+  flex-direction: column;
 `;
 
-export const ToolBox = styled.div`
-  width: 1008px;
+export const SubContentBox = styled.div`
+  width: 1104px;
   height: 64px;
   display: flex;
   justify-content: space-between;
   align-items: center;
+`;
+
+export const FlexBox = styled.div`
+  display: flex;
 `;
