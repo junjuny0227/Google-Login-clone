@@ -1,6 +1,7 @@
 import React from "react";
 import * as S from "./style";
 import LogoAndTitle from "./components/LogoAndTitle";
+import InputAndAddition from "./components/InputAndAddition";
 import "./styles/global.css";
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       <S.MainContentBox>
         <S.FlexBox>
           <LogoAndTitle />
+          <InputAndAddition />
         </S.FlexBox>
       </S.MainContentBox>
       <S.SubContentBox>

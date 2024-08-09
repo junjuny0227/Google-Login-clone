@@ -30,4 +30,5 @@ export const SubContentBox = styled.div`
 
 export const FlexBox = styled.div`
   display: flex;
+  align-items: end;
 `;
