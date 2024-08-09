@@ -2,6 +2,7 @@ import React from "react";
 import * as S from "./style";
 import LogoAndTitle from "./components/LogoAndTitle";
 import InputAndAddition from "./components/InputAndAddition";
+import SubmitButtons from "./components/SubmitButtons";
 import "./styles/global.css";
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
           <LogoAndTitle />
           <InputAndAddition />
         </S.FlexBox>
+        <SubmitButtons />
       </S.MainContentBox>
       <S.SubContentBox>
         <div>asdf</div>

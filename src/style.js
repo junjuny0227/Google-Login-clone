@@ -18,6 +18,7 @@ export const MainContentBox = styled.div`
   border-radius: 28px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 `;
 
 export const SubContentBox = styled.div`
