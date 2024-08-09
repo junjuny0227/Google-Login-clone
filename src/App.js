@@ -3,6 +3,8 @@ import * as S from "./style";
 import LogoAndTitle from "./components/LogoAndTitle";
 import InputAndAddition from "./components/InputAndAddition";
 import SubmitButtons from "./components/SubmitButtons";
+import SelectLang from "./components/SelectLang";
+import OtherMenus from "./components/OtherMenus";
 import "./styles/global.css";
 
 function App() {
@@ -16,8 +18,8 @@ function App() {
         <SubmitButtons />
       </S.MainContentBox>
       <S.SubContentBox>
-        <div>asdf</div>
-        <div>asdf</div>
+        <SelectLang />
+        <OtherMenus />
       </S.SubContentBox>
     </S.Wrapper>
   );
